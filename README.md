@@ -66,10 +66,12 @@ adapters:
       - "\.xls$"
       - "\.xlsx$"
     run: excel-adapter
+    kind: json
   - urlmatch:
       - "\.xls#[0-9]+$"
       - "\.xlsx#[0-9]+$"
     run: excel-adapter
+    kind: csv
 ```
 
 ** excel-adapter.py (pseudo-code) **
