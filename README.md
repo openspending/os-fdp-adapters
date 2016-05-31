@@ -59,8 +59,8 @@ Directory structure:
       sample.csv
 ```
 
-** adapter.yml **
-```
+**adapter.yml**
+```yml
 adapters:
   - urlmatch:
       - "\.xls$"
@@ -74,8 +74,8 @@ adapters:
     kind: csv
 ```
 
-** excel-adapter.py (pseudo-code) **
-```
+**excel-adapter.py (pseudo-code)**
+```py
 import sys
 import filefetcher
 from xls2csv import xls2csv
@@ -95,8 +95,8 @@ else:
   print csv
 ```
 
-** tests/testcases.yml **
-```
+**tests/testcases.yml**
+```yml
 testcases:
   -
     - sample.xls
