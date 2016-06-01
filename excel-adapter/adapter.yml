@@ -1,0 +1,11 @@
+adapters:
+    - kind: fdp
+      rules:
+          - "\\.xls$"
+          - "\\.xlsx$"
+      runner: excel_to_fdp
+    - kind: csv
+      rules:
+          - "\\.xls#[0-9]+$"
+          - "\\.xlsx#[0-9]+$"
+      runner: excel_to_fdp
