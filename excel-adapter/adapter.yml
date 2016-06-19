@@ -6,6 +6,6 @@ adapters:
       runner: excel_to_fdp
     - kind: csv
       rules:
-          - "\\.xls#[0-9]+$"
-          - "\\.xlsx#[0-9]+$"
+          - "\\.xls.csv$"
+          - "\\.xlsx.csv$"
       runner: excel_to_fdp

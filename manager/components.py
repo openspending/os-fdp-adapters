@@ -28,13 +28,12 @@ def parse_adapter(path, filename):
                 adapter['parameters'] = adapter.get('parameters', [])
                 assert(type(adapter['parameters']) is list)
                 adapter['runner'] = resolve_runner(path, adapter['runner'])
-                adapter['path'] = path
+                adapter['path'] = os.path.abspath(path)
                 adapter['id'] = os.path.basename(path).replace('-','_')+"_{}".format(i)
                 yield adapter
                 i += 1
     except Exception as e:
         print(e)
-        return None
 
 def all_modules(root=ROOT, descriptor_filename='adapter.yml'):
     for dirpath, dirnames, filenames in os.walk(root):

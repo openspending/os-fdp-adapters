@@ -16,6 +16,7 @@ def _single_module_test(module):
         for url, expected in tests:
             if not url.startswith('http'):
                 url=os.path.join(module_path, 'tests', url)
+                url=os.path.abspath(url).replace(os.path.abspath(os.curdir)+'/','')
             _, output = manager.run_url(url)
             assert(output is not None)
             assert(output == open(os.path.join(module_path,'tests',expected), 'rb').read())

@@ -1,6 +1,8 @@
+import sys
 import subprocess
 from .components import all_modules
 from .validators import *
+
 
 def get_adapter_for_url(url):
     adapters = all_modules()
@@ -9,12 +11,13 @@ def get_adapter_for_url(url):
             if rule.search(url):
                 return adapter
 
+
 def run_adapter(adapter, url):
-    parameters = ['/usr/bin/env', 'python', adapter['runner'], 'url']
+    parameters = [sys.executable, adapter['runner'], url]
     parameters.extend(adapter['parameters'])
-    ret = subprocess.run(parameters, check=True, stdout=subprocess.PIPE)
-    out = ret.stdout
-    return out
+    stdout_data = subprocess.check_output(parameters)
+    return stdout_data
+
 
 def run_url(url):
     adapter = get_adapter_for_url(url)
