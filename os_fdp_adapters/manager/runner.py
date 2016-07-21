@@ -1,4 +1,5 @@
 import sys
+import os
 import subprocess
 from .components import all_modules
 from .validators import *
@@ -15,7 +16,18 @@ def get_adapter_for_url(url):
 def run_adapter(adapter, url):
     parameters = [sys.executable, adapter['runner'], url]
     parameters.extend(adapter['parameters'])
-    stdout_data = subprocess.check_output(parameters)
+
+    cwd = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+    pythonpath = os.environ.get('PYTHONPATH', '')
+    if pythonpath != '':
+        pythonpath += ';'
+    pythonpath += cwd
+
+    env = os.environ.copy()
+    env['PYTHONPATH'] = pythonpath
+
+    stdout_data = subprocess.check_output(parameters, env=env, cwd=cwd)
     return stdout_data
 
 

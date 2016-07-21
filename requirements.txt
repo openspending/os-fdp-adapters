@@ -1,0 +1,6 @@
+requests
+openpyxl
+xlrd
+six
+pyyaml
+datapackage

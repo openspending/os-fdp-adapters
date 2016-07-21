@@ -5,14 +5,14 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'My Project',
-    'author': 'My Name',
-    'url': 'URL to get it at.',
-    'download_url': 'Where to download it.',
-    'author_email': 'My email.',
+    'description': 'OS FDP Adapters',
+    'author': 'Adam Kariv',
+    'url': 'http://github.com/openspending/os-fdp-adapters',
+    'download_url': 'http://github.com/openspending/os-fdp-adapters',
+    'author_email': 'adam.kariv@okfn.org',
     'version': '0.1',
-    'install_requires': ['nose'],
-    'packages': ['os-fdp-adapters'],
+    'install_requires': [],
+    'packages': ['os_fdp_adapters'],
     'scripts': [],
     'name': 'projectname'
 }

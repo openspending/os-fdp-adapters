@@ -4,6 +4,7 @@ import re
 
 ROOT=os.path.join(os.path.dirname(__file__),'..')
 
+
 def resolve_runner(path, filename):
     for fullpath in [
         os.path.join(path,filename+'.py'),
@@ -12,6 +13,7 @@ def resolve_runner(path, filename):
         if os.path.exists(fullpath):
             return fullpath
     raise FileNotFoundError(filename)
+
 
 def parse_adapter(path, filename):
     try:
@@ -34,6 +36,7 @@ def parse_adapter(path, filename):
                 i += 1
     except Exception as e:
         print(e)
+
 
 def all_modules(root=ROOT, descriptor_filename='adapter.yml'):
     for dirpath, dirnames, filenames in os.walk(root):

@@ -1,0 +1,6 @@
+-r requirements.txt
+
+coverage>=4.2b1
+coveralls
+pytest
+
