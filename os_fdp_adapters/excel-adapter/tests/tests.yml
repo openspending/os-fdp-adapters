@@ -1,6 +1,6 @@
 -
-    - test.xls
-    - test.json
--
-    - test.xls.csv
-    - test.csv
+    source: test.xls
+    expected:
+      datapackage: test.json
+      resources:
+        - test.csv

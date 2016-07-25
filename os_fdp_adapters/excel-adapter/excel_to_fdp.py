@@ -6,6 +6,7 @@ import xlrd
 import six
 
 from common.fetchers import fetch_local_filename
+from common.urls import wrap
 
 
 def to_bytes(x):
@@ -39,7 +40,7 @@ else:
         },
         "resources": [
             {
-                "path": filename + ".csv"
+                "path": wrap(filename + ".csv")
             }
         ]
     }, sys.stdout, sort_keys=True)
