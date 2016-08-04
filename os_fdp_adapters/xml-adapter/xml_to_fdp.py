@@ -11,7 +11,7 @@ XCPACKAGE = "combineXMLdata"
 PORT = 8888
 
 testfile1 = "https://raw.githubusercontent.com/wk0206/testPorject2/master/test.xml" #works
-testfile2 = "file:///Users/tdong/git/os-fdp-adapters/os_fdp_adapters/xml-adapter/tests/test.xml" #not work
+testfile2 = "file:///Users/tdong/git/os-fdp-adapters/os_fdp_adapters/xml-adapter/tests/test_eu2014_10.xml" #not work for local file for the moment
 testfile3 = "http://www.wenxion.net/pub/test.xml" #works
 
 toolList = ['npm', 'node', 'curl']
@@ -45,7 +45,7 @@ def get_process_id_str_using(PORT):
     return out.split()[10].decode("utf-8") 
     
 
-def xml_csves(xmlFile):
+def xml_csves(xmlLink):
     if (no_xml2csv_package() and check_tools()):
         subprocess.call(["npm", "install", XCGITHUB])
         if is_service_started(PORT):
@@ -59,26 +59,26 @@ def xml_csves(xmlFile):
         subprocess.Popen(['node', 'node_modules/'+XCPACKAGE, '&'])  
         print('service started...')
         sleep(5)
-        xmlLink = "http://localhost:8888/\[{}\]".format(xmlFile)
+        xmlLink = "http://localhost:8888/\[{}\]".format(xmlLink)
     else:
-        xmlLink = "http://localhost:8888/\[{}\]".format(xmlFile)
+        xmlLink = "http://localhost:8888/\[{}\]".format(xmlLink)
     
     command = "curl \'"+xmlLink + "' &"
     os.system(command)
 
 
-def generate_fdp(xmlFile):
-    basename = os.path.splitext(os.path.basename(xmlFile))[0]
+def generate_fdp(xmlLink):
+    basename = os.path.splitext(os.path.basename(xmlLink))[0]
     print('to do : create datapackage.json using <basename>')
 
 
-def xml_2_fdp(xmlFile):
-    xml_csves(xmlFile)
-    generate_fdp(xmlFile)
+def xml_2_fdp(xmlLink):
+    xml_csves(xmlLink)
+    generate_fdp(xmlLink)
 
 
-xmlfilename = sys.argv[1]
-xml_csves(xmlfilename)
+xmlAtWeb = sys.argv[1]
+xml_csves(xmlAtWeb)
 
 '''
 if __name__ == '__main__':
