@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>New Web</title>
+
+
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<p>hello world2</p>
+<input type="checkbox" value="aa "><label>test</label>
+<input type="file" id="input" onchange="test()"><label>input one</label>
+<script type="text/javascript">
+    var selectedFile = document.getElementById('input').files[0];
+</script>
+<script type="text/javascript">
+    function test (){
+        console.log(document.getElementById('input').files[0]);
+    }
+    //var selectedFile = document.getElementById('input').files[0];
+
+</script>
+</body>
