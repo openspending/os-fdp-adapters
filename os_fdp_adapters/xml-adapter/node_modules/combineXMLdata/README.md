@@ -26,4 +26,5 @@ xml source:obeu
 
 #GET THE RESULT
 file:///tmp/result.html
+file:///tmp/transformTool/[inputfile name]/
 

@@ -2,8 +2,754 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c10b3-3cf5-4efc-b15a-64557bbe6cfd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/core-util-is/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/core-util-is/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/core-util-is/float.patch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/core-util-is/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/core-util-is/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/.zuul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/doc/stream.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/node_modules/readable-stream/writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/.bin/har-validator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/.bin/sshpk-conv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/.bin/sshpk-sign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/.bin/sshpk-verify" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/.bin/xml2json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/asn1/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/asn1/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/asn1/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/asn1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/asn1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/asn1/tst/ber/reader.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/asn1/tst/ber/writer.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/async/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/async/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/async/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/async/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/boom/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/boom/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/boom/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/boom/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/boom/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/boom/images/boom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/boom/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/boom/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/combined-stream/License" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/combined-stream/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/combined-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/cryptiles/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/cryptiles/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/cryptiles/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/cryptiles/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/cryptiles/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/cryptiles/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/dashdash/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/dashdash/etc/dashdash.bash_completion.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/dashdash/node_modules/assert-plus/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/dashdash/node_modules/assert-plus/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/dashdash/node_modules/assert-plus/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/dashdash/node_modules/assert-plus/assert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/dashdash/node_modules/assert-plus/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/dashdash/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/delayed-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/delayed-stream/License" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/delayed-stream/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/delayed-stream/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/delayed-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/ecc-jsbn/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/ecc-jsbn/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/ecc-jsbn/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/ecc-jsbn/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/ecc-jsbn/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/ecc-jsbn/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/extsprintf/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/extsprintf/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/extsprintf/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/extsprintf/Makefile.deps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/extsprintf/Makefile.targ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/extsprintf/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/extsprintf/examples/simple.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/extsprintf/jsl.node.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/extsprintf/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/form-data/.dockerignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/form-data/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/form-data/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/form-data/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/form-data/License" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/form-data/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/form-data/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/form-data/wercker.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/formidable/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/formidable/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/formidable/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/formidable/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/formidable/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/formidable/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/node_modules/assert-plus/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/node_modules/assert-plus/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/node_modules/assert-plus/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/node_modules/assert-plus/assert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/node_modules/assert-plus/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/getpass/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/har-validator/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/har-validator/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/har-validator/bin/har-validator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/har-validator/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/example/usage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/images/hawk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/test/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/test/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/test/crypto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/test/readme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/test/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/test/uri.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hawk/test/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/images/hoek.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/test/escaper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/test/modules/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/test/modules/test1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/test/modules/test2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/hoek/test/modules/test3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/http-signature/.dir-locals.el" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/http-signature/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/http-signature/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/http-signature/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/http-signature/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/http-signature/http_signing.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/http-signature/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/test/isemail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/test/mocha.opts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/isemail/test/tests.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/AUTHORS.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/almond.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/almond.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/jsdoc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jodid25519/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/API.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/examples/conditionalRequire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/examples/customMessage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/examples/multipleWhen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/generate-readme-toc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/images/joi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/images/validation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/alternatives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/any.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/binary.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/boolean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/errors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/number.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/ref.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/joi/test/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-00/hyper-schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-00/json-ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-00/links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-00/schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-01/hyper-schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-01/json-ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-01/links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-01/schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-02/hyper-schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-02/json-ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-02/links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-02/schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-03/examples/address" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-03/examples/calendar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-03/examples/card" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-03/examples/geo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-03/examples/interfaces" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-03/hyper-schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-03/json-ref" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-03/links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-03/schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-04/hyper-schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-04/links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-04/schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-zyp-json-schema-03.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/draft-zyp-json-schema-04.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/json-schema/test/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jsprim/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jsprim/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jsprim/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/jsprim/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/ender.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ar-ma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ar-sa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ar-tn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/bo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/cv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/de-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/dv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/en-ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/en-nz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/es-do.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/fr-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/fy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/gd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/hy-am.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/jv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/kk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/lo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/me.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/mr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ms-my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ne.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/nn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/pa-in.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/se.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/sr-cyrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/te.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/tl-ph.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/tlh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/tzl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/tzm-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/tzm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/uz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/x-pseudo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/locale/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/min/locales.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/min/locales.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/min/moment-with-locales.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/min/moment-with-locales.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/min/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/moment.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ar-ma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ar-sa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ar-tn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/bo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/cv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/de-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/dv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/en-ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/en-nz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/es-do.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/fr-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/fy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/gd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/hy-am.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/jv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/kk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/lo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/me.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/mr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ms-my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ne.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/nn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/pa-in.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/se.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/sr-cyrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/te.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/tl-ph.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/tlh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/tzl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/tzm-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/tzm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/uz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/x-pseudo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/locale/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/moment/src/moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/CMake.README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/COPYING" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/Changes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/ConfigureChecks.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/MANIFEST" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/aclocal.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/expat.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/expat_68k.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/expat_68k.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/expat_68k_handler_stubs.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/expat_base.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/expat_lib.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/expat_vectors.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/include/inline4/expat.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/include/interfaces/expat.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/include/libraries/expat.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/include/proto/expat.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/amiga/launch.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/all_projects.bpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/elements.bpf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/elements.bpr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/elements.mak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expat.bpf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expat.bpr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expat.mak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expat_static.bpf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expat_static.bpr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expat_static.mak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expatw.bpf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expatw.bpr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expatw.mak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expatw_static.bpf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expatw_static.bpr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/expatw_static.mak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/libexpat_mtd.def" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/libexpatw_mtd.def" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/makefile.mak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/outline.bpf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/outline.bpr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/outline.mak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/setup.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/xmlwf.bpf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/xmlwf.bpr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/bcb5/xmlwf.mak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/configure" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/configure.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/conftools/PrintPath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/conftools/ac_c_bigendian_cross.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/conftools/config.guess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/conftools/config.sub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/conftools/expat.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/conftools/get-version.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/conftools/install-sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/conftools/ltmain.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/conftools/mkinstalldirs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/doc/expat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/doc/reference.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/doc/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/doc/valid-xhtml10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/doc/xmlwf.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/doc/xmlwf.sgml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/examples/elements.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/examples/elements.dsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/examples/outline.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/examples/outline.dsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/expat.dsw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/expat.pc.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/expat_config.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/expat_config.h.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/expat_config.h.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/libexpat.gyp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/m4/libtool.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/m4/ltoptions.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/m4/ltsugar.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/m4/ltversion.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/m4/lt~obsolete.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/benchmark/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/benchmark/benchmark.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/benchmark/benchmark.dsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/benchmark/benchmark.dsw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/chardata.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/chardata.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/minicheck.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/minicheck.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/runtests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/runtestspp.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/tests/xmltest.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/version.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/vms/README.vms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/vms/descrip.mms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/vms/expat_config.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/win32/MANIFEST.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/win32/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/win32/expat.iss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/codepage.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/codepage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/ct.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/filemap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/readfilemap.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/unixfilemap.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/win32filemap.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/xmlfile.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/xmlfile.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/xmlmime.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/xmlmime.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/xmltchar.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/xmlurl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/xmlwf.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/xmlwf.dsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/deps/libexpat/xmlwf/xmlwin32url.cxx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/node-expat.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/node-expat/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/test/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/test/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/qs/test/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/License.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/decode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/encode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/test/common-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/querystring/test/tap-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/codecov.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/request/request.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/examples/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/examples/time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sntp/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/bin/sshpk-conv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/bin/sshpk-sign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/bin/sshpk-verify" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/man/man1/sshpk-conv.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/man/man1/sshpk-sign.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/man/man1/sshpk-verify.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/node_modules/assert-plus/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/node_modules/assert-plus/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/node_modules/assert-plus/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/node_modules/assert-plus/assert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/node_modules/assert-plus/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/sshpk/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/topo/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/topo/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/topo/API.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/topo/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/topo/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/topo/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/topo/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/topo/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/tough-cookie/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/tough-cookie/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/tough-cookie/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/examples/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/examples/leaves.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/examples/negative.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/examples/scrub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/examples/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/circular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/equal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/has.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/interface.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/leaves.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/mutability.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/negative.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/obj.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/siblings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/stop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/subexpr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/test/super_deep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/traverse/testling/leaves.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/Makefile.targ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/examples/levels-verror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/examples/levels-werror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/examples/varargs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/examples/verror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/examples/werror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/jsl.node.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/tests/tst.inherit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/tests/tst.verror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/verror/tests/tst.werror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/bin/xml2json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/t.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/coerce-overhead.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/array-notation.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/array-notation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/coerce.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/coerce.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/domain-reversible.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/domain.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/domain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/large.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/large.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/reorder.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/reorder.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/spacetext.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/spacetext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/xmlsanitize.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/xmlsanitize.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/xmlsanitize2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/fixtures/xmlsanitize2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/test-reorder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/test-space.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/test-xmlsanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/node_modules/xml2json/test/test.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/assert-plus/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/assert-plus/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/aws-sign2/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/aws-sign2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/aws4/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/aws4/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bindings/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bindings/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/bl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/caseless/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/caseless/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/chalk/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/chalk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/.idea/workspace.xml" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/README.md" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/requestHandlers.js" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/requestHandlers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/router.js" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/combineXMLdata/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/commander/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/extend/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/extend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/forever-agent/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/forever-agent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/is-my-json-valid/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/is-my-json-valid/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/is-typedarray/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/is-typedarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/isstream/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/isstream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/jsbn/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/jsbn/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/json-stringify-safe/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/json-stringify-safe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/mime-types/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/mime-types/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/nan/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/nan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/node-uuid/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/node-uuid/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/oauth-sign/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/oauth-sign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/pinkie-promise/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/pinkie-promise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/process-nextick-args/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/process-nextick-args/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/string_decoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/stringstream/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/stringstream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/tunnel-agent/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/tunnel-agent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/tweetnacl/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/tweetnacl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/util-deprecate/package.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/node_modules/util-deprecate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/tests.yml" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/tests.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py" />
     </list>
     <ignored path="os-fdp-adapters.iws" />
@@ -25,7 +771,7 @@
     <favorites_list name="os-fdp-adapters" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,8 +785,8 @@
       <file leaf-file-name="xml_to_fdp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+            <state relative-caret-position="-887">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -48,12 +794,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="adapter.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="tests.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/tests.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+              <folding>
+                <marker date="1470656252000" expanded="true" signature="14:48" ph="..." />
+                <marker date="1470656252000" expanded="true" signature="82:98" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,21 +827,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/tests/test.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,8 +860,8 @@
       <file leaf-file-name="excel_to_fdp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/excel_to_fdp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -133,8 +882,8 @@
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.json" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.csv" />
-        <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/tests.yml" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.xml" />
+        <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/tests.yml" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py" />
       </list>
     </option>
@@ -146,10 +895,29 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="127" />
-    <option name="width" value="1341" />
-    <option name="height" value="702" />
+    <option name="x" value="-5" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="827" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -176,8 +944,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -383,6 +1151,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -517,25 +1291,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="127" width="1341" height="702" extended-state="0" />
+    <frame x="-5" y="23" width="1440" height="827" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20954512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19513889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -548,30 +1322,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -580,17 +1330,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/excel_to_fdp.py">
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.csv">
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/tests.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding>
+            <marker date="1470656252000" expanded="true" signature="14:48" ph="..." />
+            <marker date="1470656252000" expanded="true" signature="82:98" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -622,10 +1383,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/excel_to_fdp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/tests/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.xml" />
     <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/tests.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="75">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding>
+            <marker date="1470656252000" expanded="true" signature="14:48" ph="..." />
+            <marker date="1470656252000" expanded="true" signature="82:98" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/tests/tests.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -638,18 +1468,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.xml">
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/tests/test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/excel_to_fdp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+        <state relative-caret-position="-887">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

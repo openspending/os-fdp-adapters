@@ -539,7 +539,7 @@ function mergeFinal(tables){
         for (var j = i+1; j < res.length; j++){
             //this table merged by privious
             if(mergedTable.length>0 && mergedTable.indexOf(j)>-1){
-                console.log("merged before");
+                //console.log("merged before");
                 continue;
             }
 
@@ -1603,27 +1603,19 @@ function realfunction(response,request,postData) {
             treatJS = treatJson(str);
 
             var result = "";
+            var resultArray = [] ;
             result+=func;
             for (var i = 0 ; i<treatJS.length; i ++){
                 result+=("<input type = 'button' onclick='showButton(\"toc"+i+"\")' value = data"+i+">");
                 result+=("<div id=\"toc"+i+"\" hidden>");
                 result+=("<table style=\"width:100%\">");
-                if(i == 17){
-                    for(indexA in treatJS[17]){
-                        var temp = treatJS[17][indexA];
-                        //console.log("%%%%%%%%%%%%%%%%%%%%%%%%")
-                        //console.log("temp: "+temp);
-                        for(indexB in temp){
-                            //console.log("att: "+temp[indexB].att+" "+temp[indexB].val);
-                        }
-                        //console.log("%%%%%%%%%%%%%%%%%%%%%%%%")
-                    }
 
-                }
                 var title = treatJS[i][0];
                 //console.log("^^^^^^^^final log^^^^^^^^");
                 //console.log(title);
                 //console.log("^^^^^^^^final log end^^^^");
+
+                var aCSV = "";
                 for (var j = 0; j < treatJS[i].length; j++){
                     //var htmlLine = JSONtoCSV(treatJS[i][j],title);
                     //var htmlLine = JSONtoConsoleCSV(treatJS[i][j],title);
@@ -1631,15 +1623,45 @@ function realfunction(response,request,postData) {
                     result+=(htmlLine);
                     var consoleLine = JSONtoConsoleCSV(treatJS[i][j],title);
                     console.log(consoleLine);
+                    aCSV+=consoleLine;
+                    aCSV+='\n';
                     var consoleLineall = JSONtoConsoleCSVALL(treatJS[i][j],title);
                     //console.log(consoleLineall);
                 }
+                resultArray.push(aCSV);
                 console.log("");
                 result+=("</table>");
                 result+=("</div>");
                 result+=("<br/>");
             }
 
+
+            var fs    = require('fs')
+            var path  = require('path');
+            var fileName = postData.substring(postData.lastIndexOf('/')+1,postData.length-4);
+            //console.log("123456"+fileName);
+            var directory = "/tmp/transformTool/"+fileName;
+            var mkdirp = require('mkdirp');
+            mkdirp(directory, function(err) {
+
+                // path exists unless there was an error
+
+            });
+
+            //mkdirSync( path.join('first') );
+
+            for (var i = 0; i < resultArray.length; i ++){
+                //console.log("temp "+ resultArray.length)
+                var fs = require('fs');
+                fs.writeFile(directory+"/"+i+".csv", resultArray[i], function(err) {
+                    ///console.log("in sync");
+                    if(err) {
+                        return console.log(err);
+                    }
+                    var date = new Date();
+                    //console.log(date.toISOString()+": The file "+i+" was saved!");
+                });
+            }
             //console.log("result log");
             //console.log(result);
             //console.log("result log");
@@ -1651,6 +1673,8 @@ function realfunction(response,request,postData) {
                 var date = new Date();
                 console.log(date.toISOString()+": The file was saved!");
             });
+
+
         }
     });
 

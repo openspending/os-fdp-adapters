@@ -1,6 +1,6 @@
 -
-    source: test.xls
+    source: https://XXXXX/test_simple_obeu.xml
     expected:
-      datapackage: test.json
+      datapackage: datapackage.json
       resources:
-        - test.csv
+        - /tmp/transformTool/test_simple_obeu/1.csv

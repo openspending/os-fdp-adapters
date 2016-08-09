@@ -1,5 +1,6 @@
 import json
 import subprocess
+import threading
 import os
 import sys
 from time import sleep
@@ -9,8 +10,9 @@ XCGITHUB="https://github.com/wk0206/testPorject2.git"
 #nodejs package name of the xml->csv
 XCPACKAGE = "combineXMLdata"
 PORT = 8888
+TARGET_BASE_PATH = '/tmp/transformTool'
 
-testfile1 = "https://raw.githubusercontent.com/wk0206/testPorject2/master/test.xml" #works
+testfile1 = "https://raw.githubusercontent.com/wk0206/testPorject2/master/test_simple.xml" #works
 testfile2 = "file:///Users/tdong/git/os-fdp-adapters/os_fdp_adapters/xml-adapter/tests/test_eu2014_10.xml" #not work for local file for the moment
 testfile3 = "http://www.wenxion.net/pub/test.xml" #works
 
@@ -45,7 +47,7 @@ def get_process_id_str_using(PORT):
     return out.split()[10].decode("utf-8") 
     
 
-def xml_csves(xmlLink):
+def xml2csv(xmlLink):
     if (no_xml2csv_package() and check_tools()):
         subprocess.call(["npm", "install", XCGITHUB])
         if is_service_started(PORT):
@@ -68,32 +70,50 @@ def xml_csves(xmlLink):
 
 
 def generate_fdp(xmlLink):
+    """
+    :param xmlLink: https://XXXXX/test_simple_obeu.xml
+    :return: fdp:  /tmp/transformTool/test_simple_obeu/1.csv
+
+    """
+    global TARGET_BASE_PATH
     basename = os.path.splitext(os.path.basename(xmlLink))[0]
-    print('to do : create datapackage.json using <basename>')
+    targetpath = os.path.join(TARGET_BASE_PATH, basename)
+    sourcelst = []
+
+    while not os.path.isdir(targetpath):
+        print('waiting...for... producing.. in..', targetpath)
+        sleep(3)
+
+    found = False
+    wait_time = 60
+    count = 0
+    while not found:
+        for file in os.listdir(targetpath):
+            if os.path.isdir(os.path.join(targetpath, file)):
+                total_csvs = int(file)
+                for i in range(total_csvs):
+                    csvfile = str(i)+".csv"
+                    sourcelst.append({'path': os.path.join(targetpath, csvfile)})
+                found = True
+        sleep(3)
+        count += 4
+        if count > wait_time:
+            break
+    json.dump({
+        "name": basename,
+        "title": basename,
+        "model": {
+            "measures": {},
+            "dimensions": {}
+        },
+        "resources": sourcelst
+    }, sys.stdout, sort_keys=True)
 
 
 def xml_2_fdp(xmlLink):
-    xml_csves(xmlLink)
+    xml2csv(xmlLink)
     generate_fdp(xmlLink)
 
 
 xmlAtWeb = sys.argv[1]
-xml_csves(xmlAtWeb)
-
-'''
-if __name__ == '__main__':
-    if no_xml2csv_package():
-        print('no xml2csv package')
-    else:
-        print('have xml2csv package')
-    if have_tools():
-        print('have tools')
-    else:
-        print('have no tools')
-    if is_service_started(PORT):
-        print('service started')
-    else:
-        print('service not started')
-    
-    xml_csves(testfile1)
-'''
+xml_2_fdp(xmlAtWeb)

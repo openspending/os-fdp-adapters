@@ -8,6 +8,7 @@ function route(handle, pathname, response, request, postData) {
     }
 
     if (typeof handle[pathname] === 'function') {
+        //console.log("post data is " + postData);
         handle[pathname](response, request, postData);
     } else {
         var date = new Date();
