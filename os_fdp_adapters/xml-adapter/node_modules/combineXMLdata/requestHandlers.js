@@ -1636,7 +1636,7 @@ function realfunction(response,request,postData) {
             }
 
 
-            var fs    = require('fs')
+            var fs    = require('fs');
             var path  = require('path');
             var fileName = postData.substring(postData.lastIndexOf('/')+1,postData.length-4);
             //console.log("123456"+fileName);
@@ -1648,7 +1648,12 @@ function realfunction(response,request,postData) {
 
             });
 
-            //mkdirSync( path.join('first') );
+            //additional floder
+            mkdirp(directory+"/"+ resultArray.length, function(err) {
+
+                // path exists unless there was an error
+
+            });
 
             for (var i = 0; i < resultArray.length; i ++){
                 //console.log("temp "+ resultArray.length)
