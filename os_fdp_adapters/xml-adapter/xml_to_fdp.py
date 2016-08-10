@@ -72,7 +72,7 @@ def xml2csv(xmlLink):
 def generate_fdp(xmlLink):
     """
     :param xmlLink: https://XXXXX/test_simple_obeu.xml
-    :return: fdp:  /tmp/transformTool/test_simple_obeu/1.csv
+    :return: print the datapackage.json on the stdout
 
     """
     global TARGET_BASE_PATH
@@ -99,6 +99,7 @@ def generate_fdp(xmlLink):
         count += 4
         if count > wait_time:
             break
+    print()
     json.dump({
         "name": basename,
         "title": basename,
@@ -108,6 +109,7 @@ def generate_fdp(xmlLink):
         },
         "resources": sourcelst
     }, sys.stdout, sort_keys=True)
+    print()
 
 
 def xml_2_fdp(xmlLink):
