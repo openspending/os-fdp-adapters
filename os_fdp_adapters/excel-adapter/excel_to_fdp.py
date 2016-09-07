@@ -40,7 +40,7 @@ else:
         },
         "resources": [
             {
-                "path": wrap(filename + ".csv")
+                "url": wrap(filename + ".csv")
             }
         ]
     }, sys.stdout, sort_keys=True)
