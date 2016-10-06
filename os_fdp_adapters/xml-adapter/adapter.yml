@@ -3,3 +3,7 @@ adapters:
       rules:
           - "\\.xml$"
       runner: xml_to_fdp
+    - kind: csv
+      rules:
+          - "\\.xml.csv$"
+      runner: xml_to_fdp
