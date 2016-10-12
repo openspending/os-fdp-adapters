@@ -1,4 +1,4 @@
-This adapter uses the node package xml2csv, located as
+This adapter uses the node package xml2csv, located at
 https://github.com/wk0206/xml2csv
 
 Step 1: clone the node package from the gibhub
