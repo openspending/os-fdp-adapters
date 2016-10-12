@@ -5,8 +5,11 @@ import tempfile
 import os
 import six
 
+sys.path.append('..')
 from common.fetchers import fetch_local_filename
 from common.urls import wrap
+
+csvDelimiter = ','
 
 
 def to_bytes(x):
@@ -45,18 +48,19 @@ def split_into_single_csvs(filename, orginBaseName, tableSeparator="\n\n\n"):
                     csvFd.write(str.encode(oneTable, 'utf8'))
                     tmpFile = csvFd.name
                 path, base = os.path.split(tmpFile)
-                csvFileName = os.path.join(path, orginBaseName+"_"+str(count)+"_"+base+".csv")
+                csvFileName = os.path.join(path, orginBaseName+"_"+str(count)+".csv")
                 os.renames(tmpFile , csvFileName)
                 csvLst.append(csvFileName)
     return csvLst
 
 
 filename = sys.argv[1]
+
 if filename.endswith('.csv'):
     filename = fetch_local_filename(filename)
     data = []
     with open(filename, newline='') as csvfile:
-        csvreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        csvreader = csv.reader(csvfile, delimiter=csvDelimiter, quotechar='|')
         data = [[to_bytes(cell) for cell in row] for row in csvreader]
         
     w = csv.writer(sys.stdout)

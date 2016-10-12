@@ -1,6 +1,6 @@
 -
-    source: test_eu2014_10.xml
+    source: test_simple.xml
     expected:
-      datapackage: test.json
+      datapackage: test_simple.json
       resources:
-        - test.csv
+        - test_simple.csv
