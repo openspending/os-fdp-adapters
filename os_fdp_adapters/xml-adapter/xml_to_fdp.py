@@ -24,6 +24,8 @@ def gen_csv_file(url):
     :return: list of csv files, each contains a data-table extracted from the input xml file
     """
     orginBaseName = os.path.basename(url).strip(' ')
+    if url.find('http') == -1:
+        url = os.path.abspath(url)
     with tempfile.NamedTemporaryFile(delete=False) as fd:
         cmd = "xml2csv {} -a 135 >> {}".format(url, fd.name)
         print('running ', cmd)
