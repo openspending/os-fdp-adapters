@@ -5,7 +5,7 @@ python:
 
 install:
     - python -m pip install -r requirements.dev.txt
-    - nvm install 0.12.12
+    - nvm install 1.5.0
     - npm install -g https://github.com/wk0206/xml2csv.git
 
 script:
