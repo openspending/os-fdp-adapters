@@ -7,7 +7,7 @@ install:
     - python -m pip install -r requirements.dev.txt
     - nvm install 0.10
     - export PATH=$PWD:$PATH
-    - npm install -g
+    - npm install -g xml2csv
     - npm config get prefix
 
 script:
