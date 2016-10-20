@@ -4,11 +4,8 @@ python:
     - "3.5"
 
 install:
-    - python -m pip install -r requirements.dev.txt 
-    - npm cache clean -f
-    - npm install -g n
-    - n stable
-    - node --version
+    - python -m pip install -r requirements.dev.txt
+    - nvm install 0.32.1
     - npm install -g https://github.com/wk0206/xml2csv.git
 
 script:
