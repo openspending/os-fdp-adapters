@@ -1,1 +1,1 @@
-{"model": {"dimensions": {}, "measures": {}}, "name": "xls2csv", "resources": [{"path": "excel-adapter/tests/test.xls.csv"}], "title": "xls2csv"}
+{"model": {"dimensions": {}, "measures": {}}, "name": "xls2csv", "resources": [{"url": "excel-adapter/tests/test.xls.csv"}], "title": "xls2csv"}
