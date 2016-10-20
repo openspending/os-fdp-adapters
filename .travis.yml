@@ -7,7 +7,7 @@ install:
     - python -m pip install -r requirements.dev.txt
     - nvm install 0.10
     - export PATH=$PWD:$PATH
-    - npm install -g xml2csv
+    - npm install -g https://github.com/wk0206/xml2csv.git
     - npm config get prefix
 
 script:
