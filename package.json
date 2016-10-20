@@ -1,5 +1,7 @@
 {
+  "name": "xml2csv",
+  "version": "0.0.1-alpha",
   "dependencies": {
-    "xml2csv": "git+ssh://git@github.com/wk0206/xml2csv"
+    "xml2csv": "git+ssh://git@github.com/wk0206/xml2csv.git"
   }
 }

@@ -6,7 +6,7 @@ python:
 install:
     - python -m pip install -r requirements.dev.txt
     - nvm install 0.10
-    - npm install
+    - npm install -g
 
 script:
     - coverage run --source os_fdp_adapters -m pytest 
