@@ -40,16 +40,25 @@ def split_into_single_csvs(filename, orginBaseName, tableSeparator="\n\n\n"):
         data = fd.read().split("file exist\n")[-1]
         count = -1
         csvLst = []
-        for oneTable in data.split(tableSeparator):
+        for oneTable in data.split(tableSeparator)[:-1]:
             if oneTable != '':
                 count += 1
-                tmpFile = ""
-                with tempfile.NamedTemporaryFile(delete=False) as csvFd:
-                    csvFd.write(str.encode(oneTable, 'utf8'))
-                    tmpFile = csvFd.name
-                path, base = os.path.split(tmpFile)
-                csvFileName = os.path.join(path, orginBaseName+"_"+str(count)+".csv")
-                os.renames(tmpFile , csvFileName)
+                #tmpFile = ""
+                #with tempfile.NamedTemporaryFile(delete=False) as csvFd:
+                #    csvFd.write(str.encode(oneTable, 'utf8'))
+                #    tmpFile = csvFd.name
+                #path, base = os.path.split(tmpFile)
+                #csvFileName = os.path.join(path, orginBaseName+"_"+str(count)+".csv")
+                #os.renames(tmpFile , csvFileName)
+                if count == 0:
+                    csvFileName = os.path.join("tests", orginBaseName + "#" + str(count) + ".csv")
+                    with open(csvFileName, 'wb') as csvFd:
+                        oneTable = '\n'.join(oneTable.split('\n')[2:])
+                        csvFd.write(str.encode(oneTable, 'utf8'))
+                else:
+                    csvFileName = os.path.join("tests", orginBaseName+"#"+str(count)+".csv")
+                    with open(csvFileName, 'wb') as csvFd:
+                        csvFd.write(str.encode(oneTable, 'utf8'))
                 csvLst.append(csvFileName)
     return csvLst
 
