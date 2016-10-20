@@ -3,6 +3,17 @@ language: python
 python:
     - "3.5"
 
+language: node_js
+node_js: stable
+before_install:
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo apt-get -qq update
+  - sudo apt-get -qq install g++-4.8
+env:
+  - CXX=g++-4.8
+notifications: ## Here we add a slack notifications once the deployment is completed. Refer to Slack Travis integration
+  slack: mycompany:QW93JOP898JEIQWJDSXW13IOK
+
 install:
     - python -m pip install -r requirements.dev.txt
     - nvm install 4.6.1
