@@ -3,23 +3,9 @@ language: python
 python:
     - "3.5"
 
-sudo: false
-env:
-  - CXX=g++-4.8
-language: node_js
-node_js:
-  - "4"
-addons:
-  apt:
-    sources:
-    - ubuntu-toolchain-r-test
-    packages:
-    - gcc-4.8
-    - g++-4.8
-
 install:
     - python -m pip install -r requirements.dev.txt
-    - nvm install 4.6.1
+    - nvm install 5.12.0
     - npm install -g https://github.com/wk0206/xml2csv.git
 
 script:
