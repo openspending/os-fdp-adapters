@@ -52,7 +52,7 @@ def split_into_single_csvs(filename, orginBaseName, tableSeparator="\n\n\n"):
                 #path, base = os.path.split(tmpFile)
                 #csvFileName = os.path.join(path, orginBaseName+"_"+str(count)+".csv")
                 #os.renames(tmpFile , csvFileName)
-                absTestPath = os.path.abspath("tests")
+                absTestPath = os.path.abspath("xml-adapter/tests")
                 if count == 0:
                     csvFileName = os.path.join(absTestPath, orginBaseName + "#" + str(count) + ".csv")
                     with open(csvFileName, 'bw+') as csvFd:
