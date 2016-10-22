@@ -4,7 +4,7 @@ python:
     - "2.7"
 
 before_install:
-    - sudo apk add python make g++
+    - sudo apt-get install g++-4.8 build-essential
 
 install:
     - python -m pip install -r requirements.dev.txt
