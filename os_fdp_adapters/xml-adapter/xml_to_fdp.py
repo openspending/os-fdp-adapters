@@ -97,5 +97,9 @@ else:
             "measures": {},
             "dimensions": {}
         },
-        "resources": nameLst
+        "resources": [
+            {
+                "path": wrap("xml-adapter/tests/test_simple" + ".csv")
+            }
+        ]
     }, sys.stdout, sort_keys=True)

@@ -8,6 +8,7 @@ def validate_csv(stream):
 
 
 def validate_fdp(stream):
+    assert (type(stream) == bytes)
     stream = stream.decode('ascii')
     stream = json.loads(stream)
     dpo = datapackage.schema.Schema('fiscal')
