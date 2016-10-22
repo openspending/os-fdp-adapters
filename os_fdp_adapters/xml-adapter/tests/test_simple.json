@@ -1,1 +1,1 @@
-{"model": {"dimensions": {}, "measures": {}}, "name": "xml2csv", "resources": [[{"path": "tests/test_simple.xml#0.csv"}, {"path": "tests/test_simple.xml#1.csv"}]], "title": "xml2csv"}
+{"model": {"dimensions": {}, "measures": {}}, "name": "xml2csv", "resources": [[{"path": "xml-adapter/tests/test_simple#0.xml.csv"}, {"path": "xml-adapter/tests/test_simple#1.xml.csv"}]], "title": "xml2csv"}

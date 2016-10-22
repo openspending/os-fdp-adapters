@@ -52,14 +52,15 @@ def split_into_single_csvs(filename, orginBaseName, tableSeparator="\n\n\n"):
                 #path, base = os.path.split(tmpFile)
                 #csvFileName = os.path.join(path, orginBaseName+"_"+str(count)+".csv")
                 #os.renames(tmpFile , csvFileName)
-                absTestPath = os.path.abspath("xml-adapter/tests")
+                testPath = "xml-adapter/tests"
+                baseName = os.path.splitext(orginBaseName)[0]
                 if count == 0:
-                    csvFileName = os.path.join(absTestPath, orginBaseName + "#" + str(count) + ".csv")
+                    csvFileName = os.path.join(testPath, baseName + "#" + str(count) + ".xml.csv")
                     with open(csvFileName, 'bw+') as csvFd:
                         oneTable = '\n'.join(oneTable.split('\n')[2:])
                         csvFd.write(str.encode(oneTable, 'utf8'))
                 else:
-                    csvFileName = os.path.join(absTestPath, orginBaseName+"#"+str(count)+".csv")
+                    csvFileName = os.path.join(testPath, baseName+"#"+str(count)+".xml.csv")
                     with open(csvFileName, 'bw+') as csvFd:
                         csvFd.write(str.encode(oneTable, 'utf8'))
                 csvLst.append(csvFileName)
@@ -93,8 +94,8 @@ else:
         "name": "xml2csv",
         "title": "xml2csv",
         "model": {
-            "measures":{},
-            "dimensions":{}
+            "measures": {},
+            "dimensions": {}
         },
         "resources": nameLst
     }, sys.stdout, sort_keys=True)

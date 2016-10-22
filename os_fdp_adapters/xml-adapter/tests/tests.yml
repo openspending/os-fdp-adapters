@@ -3,5 +3,5 @@
     expected:
       datapackage: test_simple.json
       resources:
-        - test_simple.xml#0.csv
-        - test_simple.xml#1.csv
+        - test_simple#0.xml.csv
+        - test_simple#1.xml.csv
