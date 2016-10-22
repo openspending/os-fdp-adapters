@@ -3,9 +3,6 @@ language: python
 python:
     - "2.7"
 
-before_install:
-    - sudo apt-get install g++ build-essential
-
 install:
     - python -m pip install -r requirements.dev.txt
     - nvm install 5.12.0
