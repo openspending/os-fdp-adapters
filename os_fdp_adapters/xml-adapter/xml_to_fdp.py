@@ -86,8 +86,8 @@ else:
     """
     csvLst = gen_csv_file(filename)
     nameLst = []
-    for csvname in csvLst:
-        nameLst.append({"path": wrap(csvname)})
+    for csvName in csvLst:
+        nameLst.append({"path": wrap(csvName)})
 
     json.dump({
         "name": "xml2csv",
@@ -96,7 +96,5 @@ else:
             "measures":{},
             "dimensions":{}
         },
-        "resources": [
-            nameLst
-        ]
+        "resources": nameLst
     }, sys.stdout, sort_keys=True)
