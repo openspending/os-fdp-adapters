@@ -1,5 +1,5 @@
 adapters:
-    - kind: fdpx
+    - kind: fdp
       rules:
           - "\\.xml$"
       runner: xml_to_fdp
