@@ -27,7 +27,7 @@ def gen_csv_file(url):
     if url.find('http') == -1:
         url = os.path.abspath(url)
     with tempfile.NamedTemporaryFile(delete=False) as fd:
-        cmd = "xml2csv {} -a 135 >> {}".format(url, fd.name) 
+        cmd = "xml2csv {} -a 135 >> {}".format(url, fd.name)
         os.system(cmd)
         return split_into_single_csvs(fd.name, orginBaseName)
 
@@ -89,8 +89,8 @@ else:
     for csvName in csvLst:
         nameLst.append({"path": wrap(csvName)})
     json.dump({
-        "name": "xls2csv",
-        "title": "xls2csv",
+        "name": "xml2csv",
+        "title": "xml2csv",
         "model": {
             "measures":{},
             "dimensions":{}
