@@ -99,7 +99,7 @@ else:
         },
         "resources": [
             {
-                "path": wrap("xml-adapter/tests/test_simple" + ".csv")
+                "path": wrap(filename + ".csv")
             }
         ]
     }, sys.stdout, sort_keys=True)
