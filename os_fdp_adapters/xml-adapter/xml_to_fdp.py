@@ -89,7 +89,7 @@ else:
     nameLst = []
     for csvName in csvLst:
         nameLst.append({"path": wrap(csvName)})
-
+    print(nameLst)
     json.dump({
         "name": "xls2csv",
         "title": "xls2csv",
