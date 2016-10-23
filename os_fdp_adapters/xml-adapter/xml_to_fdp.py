@@ -91,15 +91,11 @@ else:
         nameLst.append({"path": wrap(csvName)})
 
     json.dump({
-        "name": "xml2csv",
-        "title": "xml2csv",
+        "name": "xls2csv",
+        "title": "xls2csv",
         "model": {
-            "measures": {},
-            "dimensions": {}
+            "measures":{},
+            "dimensions":{}
         },
-        "resources": [
-            {
-                "path": wrap(filename + ".csv")
-            }
-        ]
+        "resources": nameLst
     }, sys.stdout, sort_keys=True)
