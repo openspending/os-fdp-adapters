@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c10b3-3cf5-4efc-b15a-64557bbe6cfd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test_simple.json" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test_simple.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml" afterPath="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml" />
     </list>
     <ignored path="os-fdp-adapters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +31,7 @@
       <file leaf-file-name="xml_to_fdp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="1470">
               <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adapter.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="adapter.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="15">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -91,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_simple.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_simple.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test_simple.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -116,7 +115,7 @@
       <file leaf-file-name="excel_to_fdp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/excel_to_fdp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="504">
               <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -151,7 +150,6 @@
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.csv" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test.xml" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/excel-adapter/excel_to_fdp.py" />
-        <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/Readme" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test_simple.xml#0.csv" />
@@ -162,6 +160,7 @@
         <option value="$PROJECT_DIR$/os_fdp_adapters/manager/validators.py" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py" />
         <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test_simple.json" />
+        <option value="$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml" />
       </list>
     </option>
   </component>
@@ -1004,14 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/os_fdp_adapters/manager/runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -1048,9 +1039,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test_simple.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="79" selection-start-line="0" selection-start-column="79" selection-end-line="0" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/xml_to_fdp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="1470">
           <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -1060,7 +1059,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/os_fdp_adapters/excel-adapter/excel_to_fdp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="504">
           <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -1068,10 +1067,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/tests/test_simple.json">
+    <entry file="file://$PROJECT_DIR$/os_fdp_adapters/xml-adapter/adapter.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="79" selection-start-line="0" selection-start-column="79" selection-end-line="0" selection-end-column="79" />
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
