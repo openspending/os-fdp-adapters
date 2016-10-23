@@ -61,6 +61,7 @@ def split_into_single_csvs(filename, orginBaseName, tableSeparator="\n\n\n"):
                 else:
                     csvFileName = os.path.join(testPath, baseName+"#"+str(count)+".xml.csv")
                     with open(csvFileName, 'bw+') as csvFd:
+                        oneTable = '\r\n'.join(oneTable.split('\n'))
                         csvFd.write(str.encode(oneTable, 'utf8'))
                 csvLst.append(csvFileName)
     return csvLst
