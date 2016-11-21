@@ -7,6 +7,6 @@
         - test_simple#1.xml.csv
     source: book.xml
     expected:
-      datapackage: test_simple.json
+      datapackage: book.json
       resources:
-        - book#0.xml.csv 
+        - book#0.xml.csv

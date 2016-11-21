@@ -6,6 +6,7 @@ import subprocess
 import six
 from common.urls import wrap
 
+
 csvDelimiter = ','
 
 
