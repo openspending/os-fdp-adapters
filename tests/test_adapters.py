@@ -55,6 +55,8 @@ def _single_module_test(module):
                     _, output = manager.run_url(res_url)
                     assert(output is not None)
                     resource = open(os.path.join(module_path, 'tests', expected_resource), 'rb').read().rstrip()
+                    print(output.rstrip())
+                    print(resource)
                     assert(output.rstrip() == resource)
 
 
