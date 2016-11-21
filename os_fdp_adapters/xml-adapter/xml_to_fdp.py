@@ -69,7 +69,8 @@ def print_n_th_csv_content(url, n=0, tableSeparator="\n\n\n"):
     csvString = subprocess.check_output(['xml2csv', url, '-a', '135']).decode("utf-8")
     csvContentLst = csvString.split(tableSeparator)[:-1]
     if n < len(csvContentLst) and n > -1:
-        print(csvContentLst[n])
+        oneTable = '\r\n'.join(csvContentLst[n].split('\n'))
+        print(oneTable)
     else:
         print("Totally ", len(csvContentLst), " csv files.\n n=",n, " is out of the range\n")
 
