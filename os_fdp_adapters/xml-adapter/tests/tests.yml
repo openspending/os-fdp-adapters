@@ -10,3 +10,59 @@
       datapackage: book.json
       resources:
         - book#0.xml.csv
+    source: test_eu2014_10.xml
+    expected:
+      datapackage: test_eu2014_10.json
+      resources:
+        - test_eu2014_10#0.xml.csv
+        - test_eu2014_10#1.xml.csv
+        - test_eu2014_10#2.xml.csv
+        - test_eu2014_10#3.xml.csv
+        - test_eu2014_10#4.xml.csv
+        - test_eu2014_10#5.xml.csv
+        - test_eu2014_10#6.xml.csv
+        - test_eu2014_10#7.xml.csv
+        - test_eu2014_10#8.xml.csv
+        - test_eu2014_10#9.xml.csv
+        - test_eu2014_10#10.xml.csv
+        - test_eu2014_10#11.xml.csv
+        - test_eu2014_10#12.xml.csv
+        - test_eu2014_10#13.xml.csv
+        - test_eu2014_10#14.xml.csv
+        - test_eu2014_10#15.xml.csv
+        - test_eu2014_10#16.xml.csv
+        - test_eu2014_10#17.xml.csv
+        - test_eu2014_10#18.xml.csv
+        - test_eu2014_10#19.xml.csv
+        - test_eu2014_10#20.xml.csv
+        - test_eu2014_10#21.xml.csv
+        - test_eu2014_10#22.xml.csv
+        - test_eu2014_10#23.xml.csv
+        - test_eu2014_10#24.xml.csv
+        - test_eu2014_10#25.xml.csv
+        - test_eu2014_10#26.xml.csv
+        - test_eu2014_10#27.xml.csv
+        - test_eu2014_10#28.xml.csv
+        - test_eu2014_10#29.xml.csv
+        - test_eu2014_10#30.xml.csv
+        - test_eu2014_10#31.xml.csv
+        - test_eu2014_10#32.xml.csv
+        - test_eu2014_10#33.xml.csv
+        - test_eu2014_10#34.xml.csv
+        - test_eu2014_10#35.xml.csv
+        - test_eu2014_10#36.xml.csv
+        - test_eu2014_10#37.xml.csv
+        - test_eu2014_10#38.xml.csv
+        - test_eu2014_10#39.xml.csv
+        - test_eu2014_10#40.xml.csv
+        - test_eu2014_10#41.xml.csv
+        - test_eu2014_10#42.xml.csv
+        - test_eu2014_10#43.xml.csv
+        - test_eu2014_10#44.xml.csv
+        - test_eu2014_10#45.xml.csv
+        - test_eu2014_10#46.xml.csv
+        - test_eu2014_10#47.xml.csv
+        - test_eu2014_10#48.xml.csv
+        - test_eu2014_10#49.xml.csv
+        - test_eu2014_10#50.xml.csv
+        - test_eu2014_10#51.xml.csv
