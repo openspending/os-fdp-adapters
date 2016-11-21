@@ -98,7 +98,8 @@ def split_str_into_single_csvs(csvString, orginBaseName, tableSeparator="\n\n\n"
 filename = sys.argv[1]
 
 if filename.endswith('.csv'):
-    xmlfilename = filename.split('#')[0]+".xml"
+    testPath = "xml-adapter/tests"
+    xmlfilename = os.path.join(testPath, filename.split('#')[0]+".xml")
     nThCsv = int(filename.split('#')[1][:-8])
     print_n_th_csv_content(xmlfilename, n=nThCsv)
 else:
