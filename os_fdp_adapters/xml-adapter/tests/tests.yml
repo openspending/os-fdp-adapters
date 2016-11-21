@@ -9,5 +9,4 @@
     expected:
       datapackage: test_simple.json
       resources:
-        - test_simple#0.xml.csv
-        - test_simple#1.xml.csv
+        - book#0.xml.csv 
