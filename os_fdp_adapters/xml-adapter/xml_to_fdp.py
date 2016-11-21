@@ -1,12 +1,9 @@
 import sys
 import csv
 import json
-import tempfile
 import os
+import subprocess
 import six
-
-sys.path.append('..')
-from common.fetchers import fetch_local_filename
 from common.urls import wrap
 
 csvDelimiter = ','
@@ -23,72 +20,96 @@ def gen_csv_file(url):
     :param url: url can be the absolute address of an xml file, or  an xml file located at web (http://..../<name>.xml
     :return: list of csv files, each contains a data-table extracted from the input xml file
     """
-    orginBaseName = os.path.basename(url).strip(' ')
-    if url.find('http') == -1:
+    orginBaseName = os.path.basename(url)
+    if not url.startswith('http'):
         url = os.path.abspath(url)
-    with tempfile.NamedTemporaryFile(delete=False) as fd:
-        cmd = "xml2csv {} -a 135 >> {}".format(url, fd.name)
-        os.system(cmd)
-        return split_into_single_csvs(fd.name, orginBaseName)
+    csvString = subprocess.check_output(['xml2csv', url, '-a', '135']).decode("utf-8")
+    return split_str_into_single_csvs(csvString, orginBaseName)
 
 
-def split_into_single_csvs(filename, orginBaseName, tableSeparator="\n\n\n"):
+def gen_all_csv_file_names(url):
     """
-    :param  filename: a file containing several data-tables, which are separated by blank lines
+    :param url: url can be the absolute address of an xml file, or  an xml file located at web (http://..../<name>.xml
+    :return: list of csv files, each contains a data-table extracted from the input xml file
+    """
+    orginBaseName = os.path.basename(url)
+    if not url.startswith('http'):
+        url = os.path.abspath(url)
+    csvString = subprocess.check_output(['xml2csv', url, '-a', '135']).decode("utf-8")
+    return create__csv_file_names(csvString, orginBaseName)
+
+
+def create__csv_file_names(csvString, orginBaseName, tableSeparator="\n\n\n"):
+    """
+    :param csvString:  is the extracted content
+    :param orginBaseName: the file name selected by the user
+    :param tableSeparator:
+    :return: a list of csv file names
+    """
+    count = -1
+    csvLst = []
+    for oneTable in csvString.split(tableSeparator)[:-1]:
+        if oneTable != '':
+            count += 1
+            baseName = os.path.splitext(orginBaseName)[0]
+            csvFileName = os.path.join(baseName + "#" + str(count) + ".xml.csv")
+            csvLst.append(csvFileName)
+    return csvLst
+
+
+def print_n_th_csv_content(url, n=0, tableSeparator="\n\n\n"):
+    """
+    :param url: url can be the absolute address of an xml file, or  an xml file located at web (http://..../<name>.xml
+    :param n: n-th csv, the first csv is pointed by n=0
+    :return: content of n-th csv
+    """
+    if not url.startswith('http'):
+        url = os.path.abspath(url)
+    csvString = subprocess.check_output(['xml2csv', url, '-a', '135']).decode("utf-8")
+    csvContentLst = csvString.split(tableSeparator)[:-1]
+    if n < len(csvContentLst) and n > -1:
+        print(csvContentLst[n])
+    else:
+        print("Totally ", len(csvContentLst), " csv files.\n n=",n, " is out of the range\n")
+
+
+def split_str_into_single_csvs(csvString, orginBaseName, tableSeparator="\n\n\n"):
+    """
+    :param  csvString is the extracted content
+            orginBaseName: the file name selected by the user
     :return: a list of csv file names, each is csv file containing one data-table
     """
-    with open(filename, 'r') as fd:
-        data = fd.read().split("file exist\n")[-1]
-        count = -1
-        csvLst = []
-        for oneTable in data.split(tableSeparator)[:-1]:
-            if oneTable != '':
-                count += 1
-                #tmpFile = ""
-                #with tempfile.NamedTemporaryFile(delete=False) as csvFd:
-                #    csvFd.write(str.encode(oneTable, 'utf8'))
-                #    tmpFile = csvFd.name
-                #path, base = os.path.split(tmpFile)
-                #csvFileName = os.path.join(path, orginBaseName+"_"+str(count)+".csv")
-                #os.renames(tmpFile , csvFileName)
-                testPath = "xml-adapter/tests"
-                baseName = os.path.splitext(orginBaseName)[0]
-                if count == 0:
-                    csvFileName = os.path.join(testPath, baseName + "#" + str(count) + ".xml.csv")
-                    with open(csvFileName, 'bw+') as csvFd:
-                        oneTable = '\r\n'.join(oneTable.split('\n')[2:])
-                        csvFd.write(str.encode(oneTable, 'utf8'))
-                else:
-                    csvFileName = os.path.join(testPath, baseName+"#"+str(count)+".xml.csv")
-                    with open(csvFileName, 'bw+') as csvFd:
-                        oneTable = '\r\n'.join(oneTable.split('\n'))
-                        csvFd.write(str.encode(oneTable, 'utf8'))
-                csvLst.append(csvFileName)
+    count = -1
+    csvLst = []
+    for oneTable in csvString.split(tableSeparator)[:-1]:
+        if oneTable != '':
+            count += 1
+            testPath = "xml-adapter/tests"
+            baseName = os.path.splitext(orginBaseName)[0]
+            csvFileName = os.path.join(testPath, baseName+"#"+str(count)+".xml.csv")
+            with open(csvFileName, 'bw+') as csvFd:
+                oneTable = '\r\n'.join(oneTable.split('\n'))
+                csvFd.write(str.encode(oneTable, 'utf8'))
+            csvLst.append(csvFileName)
     return csvLst
 
 
 filename = sys.argv[1]
 
 if filename.endswith('.csv'):
-    filename = fetch_local_filename(filename)
-    data = []
-    with open(filename, newline='') as csvfile:
-        csvreader = csv.reader(csvfile, delimiter=csvDelimiter, quotechar='|')
-        data = [[to_bytes(cell) for cell in row] for row in csvreader]
-        
-    w = csv.writer(sys.stdout)
-    w.writerows(data)
-
+    xmlfilename = filename.split('#')[0]+".xml"
+    nThCsv = int(filename.split('#')[1][:-8])
+    print_n_th_csv_content(xmlfilename, n=nThCsv)
 else:
     """
     input url link of xml,
     extract csv files, and save them as template files
     wrap file names, and list them in the 'resources' key
     """
-    csvLst = gen_csv_file(filename)
+    csvLst = gen_all_csv_file_names(filename)
     nameLst = []
     for csvName in csvLst:
-        nameLst.append({"path": wrap(csvName)})
+        nameLst.append({"url": wrap(csvName)})
     json.dump({
         "name": "xml2csv",
         "title": "xml2csv",
