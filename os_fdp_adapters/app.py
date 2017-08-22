@@ -2,6 +2,7 @@ import sys
 
 from flask import Flask
 from flask.ext.cors import CORS
+from werkzeug.contrib.fixers import ProxyFix
 
 import logging
 
@@ -20,6 +21,7 @@ root.addHandler(ch)
 def create_app():
     logging.info('OS-FDP-ADAPTERS create_app')
     app = Flask('os_fdp_adapters')
+    app.wsgi_app = ProxyFix(app.wsgi_app)
     logging.info('OS-API configuring blueprints')
     app.register_blueprint(OSFdpAdapter, url_prefix='/')
     CORS(app)
