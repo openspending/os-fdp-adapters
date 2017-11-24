@@ -1,3 +1,6 @@
+[![Travis](https://img.shields.io/travis/openspending/os-fdp-adapters.svg)](https://travis-ci.org/openspending/os-fdp-adapters)
+[![Coveralls](http://img.shields.io/coveralls/openspending/os-fdp-adapters/master.svg)](https://coveralls.io/r/openspending/os-fdp-adapters)
+
 # OS-FDP-Adapters
 Convert various data formats into FDP
 
