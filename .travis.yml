@@ -1,13 +1,13 @@
 
 language: python
 python:
-    - "3.5"
+    - "3.6"
 
 install:
     - python -m pip install -r requirements.dev.txt
 
 script:
-    - coverage run --source os_fdp_adapters -m pytest 
+    - coverage run --source os_fdp_adapters -m pytest
 
 after_success:
     - coveralls
