@@ -5,4 +5,4 @@ openpyxl
 xlrd
 six
 pyyaml
-datapackage
+datapackage<1.0.0
