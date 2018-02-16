@@ -1,8 +1,11 @@
+import os
 import sys
 
 from flask import Flask
 from flask.ext.cors import CORS
 from werkzeug.contrib.fixers import ProxyFix
+
+from raven.contrib.flask import Sentry
 
 import logging
 
@@ -25,6 +28,8 @@ def create_app():
     logging.info('OS-API configuring blueprints')
     app.register_blueprint(OSFdpAdapter, url_prefix='/')
     CORS(app)
+    if os.environ.get('SENTRY_DSN', False):
+        Sentry(app, dsn=os.environ.get('SENTRY_DSN', ''))
     logging.info('OS-FDP-ADAPTERS app created')
     return app
 
@@ -35,4 +40,3 @@ wsgi = create_app()
 @wsgi.route('/ping')
 def ping():
     return 'pong'
-

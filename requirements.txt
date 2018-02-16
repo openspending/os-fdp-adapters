@@ -6,3 +6,8 @@ xlrd
 six
 pyyaml
 datapackage<1.0.0
+gunicorn
+cchardet
+tabulator
+raven==6.0.0
+blinker>=1.1
