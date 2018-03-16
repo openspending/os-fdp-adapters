@@ -1,4 +1,5 @@
 .cache
 .tox
 .git
+.pytest_cache
 *.egg-info

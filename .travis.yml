@@ -1,14 +1,34 @@
-
 language: python
+
 python:
-    - "3.6"
+  - 3.6
+
+services:
+  - docker
+
+env:
+    global:
+        # DOCKER_USERNAME
+        - secure: Ip697fFHIJNKB7cxUjFvIg54V/BvY7RiYaHEnOKG3iYNBBLpzr81bC3V0ZbMpBANXu0/o0gYQkGL+uJSz1XduUKgPqVAIOIqVhFn1sin6Gz4TGRzk5/4TQgyE2BajYRii4Lpqs/Ey0ZzYA+XgxjQPZHkam0K5jkM9s/OwdjDUrZL9LvJV/VnCyd6/CrnSgFSyor9OC/xTowQMbveEx6TAF2lDMUozXCzhXtnApcEvMoF0P2L3it8LKl4ltFGokvWjsuutm00rQ5vCGU6c2Or5/087d40acz0bh8S9u+9kfSuk5TjYrZAotAl5Q3DJ/mk0DdMdzB61wRNdDpjAbSm6024viJeeN6lhF2MRnsOQIqAfNoquwptfGtu2Nbon6w412VXBr31+q9sLz+QgwscERFzq/FlIj2pmlE8LT4TELQPCg4YJFmU7x6o2ZLDtUolQfC2vGEyiCdu2r77xZaJ2eKlbEA6LSOLcOmYdHXJh+GgxdAx+BqV+VdCwPW7HR/KT/2Y/FbmpovJDdbu4aAO2m5lZS8lzD+SF6raBk0HhPwkquJZSDeakSqEtZ9teGti0mCexmGG5+8vpBxHpTRUu1Q+d3fefiXJiDItb095NN7PsvJMrES/g3TcOMldKW6w8GxboUUZhO66FAzrEXVOBTgCID3I1duf4MvyhKGhWo0=
+        # DOCKER_PASSWORD
+        - secure: Qr1qutsqteXHCVS7mfUCIl9XdVv8rMWUuvQI12Iu6hYGgHgfJ8IfNX0vn86St9iQ/FieIerAPszwhz0SnNWbsGNxERGqNsagOP8h2fhI5qf4s0zsBrodZsvMwdW0FaG/hHy2Z8GgsTEA4CIs3DcH3Tox4fdc1K3ShYNEJfmwdtIoYNLgSV1Ky71ne3A/l8bxcRXSzM9QZzGx/cdCqOpv7klQYkuuScoS5Ct5bWZwcNGM7CsXgv0pBmxrgCn606WgZ8Sa2J/0U2DLfR/ZwaZsKpQ5ZblQWJkUEWD1Q0BmkQsYgV7LZQgb9nbVk+feLe2NjcknG2yEyvndCnn38StbJRIXbfBMvCiQ8LEkcDRnX2fB7M06RMKiKE6qJg0lfIBCk0QuABxHk7sKTq4XmvtVs59CNlk0wFq6jpBPpv9Oiio81TdoI/JqpyFeW/7N3BArs0NdQDdtWFbU0XAYjEWn5IYOYMFsKizpkqYlBKddj4NLC4hnm7ZLHeTqh04HZ7TsIHhBrCv+H/L3dA9LKpdYuY+BeDNyVPsnluxUHhoBMmqoH4sMOcL3vunkpCJby8FFTqfOWdi+lTA9DrEDKZpWNt20VwV0wD+KrpEqnOmC6jvlBXpNhzsHnkrQzG0od7ytd6B9L8PHchAy4hEiyESw4SE6gISEq2xLLg0RO/4TAbI=
 
 install:
-    - python -m pip install -r requirements.dev.txt
+  - make ci-build
+  - make ci-run
+  - pip install -r requirements.dev.txt
 
 script:
-    - coverage run --source os_fdp_adapters -m pytest
+  - make ci-test
+  - tox
 
 after_success:
-    - coveralls
+  - coveralls
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then make ci-push-tag TAG="${TRAVIS_PULL_REQUEST_BRANCH////_}"; fi'
 
+deploy:
+  # deploy master to latest tag
+  - provider: script
+    script: make ci-push
+    on:
+      branch: master
