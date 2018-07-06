@@ -15,11 +15,10 @@ env:
 
 install:
   - make ci-build
-  - make ci-run
   - pip install -r requirements.dev.txt
 
 script:
-  - make ci-test
+  - make ci-run && make ci-test
   - tox
 
 after_success:
