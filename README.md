@@ -2,7 +2,7 @@
 [![Coveralls](http://img.shields.io/coveralls/openspending/os-fdp-adapters/master.svg)](https://coveralls.io/r/openspending/os-fdp-adapters)
 
 # OS-FDP-Adapters
-Convert various data formats into FDP
+Convert various data formats into Fiscal Data Package. Used by [os-packager](https://github.com/openspending/os-packager).
 
 ## Purpose
 
@@ -15,7 +15,7 @@ Each converter is used for a single data source. When used, it will convert the 
 
 Common use case:
  - User provides a URL to OS Importer, which then needs convert to a proper FDP
- - The correct adapter to handle this URL is found by matching the URL with a URL pattern per adapter 
+ - The correct adapter to handle this URL is found by matching the URL with a URL pattern per adapter
  - The adapter code is called, it returns a `datapackage.json` file
    - The FDP might contain any meta-data that was extracted from the original source
    - It should also have a list of resources. Each resource with a custom URL - which will be used to extract a CSV file.
@@ -25,7 +25,7 @@ Common use case:
    - The adapter code is called, it returns the resource's csv file
    - The file is then validated to be a valid CSV with UTF-8 encoding
    - If valid, the file is returned to OS Importer
-   
+
 ## Configuration
 
 Each datasource code resides in a separate directory.
@@ -44,7 +44,7 @@ Output file should be printed to `stdout`
 
 ## Testing
 
-Each adapter directory should have a subdirectory named `tests`. In this directory a `testcases.yml` file must be present. It must have a `testcases` root element which is a list of test cases. 
+Each adapter directory should have a subdirectory named `tests`. In this directory a `testcases.yml` file must be present. It must have a `testcases` root element which is a list of test cases.
 Each test case is a list of two elements - a URL and an expected result. The URL must match in one of the rules of the adapter; when running the adapter with the specified URL it must return a file identical to the expected result.
 URL can be an external URL or the name of a local file in the `tests` directory.
 
