@@ -14,17 +14,17 @@ These adapters are used by OpenSpending when importing data into the OpenSpendin
 Each converter is used for a single data source. When used, it will convert the data source into a Fiscal Data Package with all its resources.
 
 Common use case:
- - User provides a URL to OS Importer, which then needs convert to a proper FDP
+ - User provides a URL to OS Packager, which then needs convert to a proper FDP
  - The correct adapter to handle this URL is found by matching the URL with a URL pattern per adapter
  - The adapter code is called, it returns a `datapackage.json` file
    - The FDP might contain any meta-data that was extracted from the original source
    - It should also have a list of resources. Each resource with a custom URL - which will be used to extract a CSV file.
- - The file is validated against the schema and if valid is returned to OS Importer
+ - The file is validated against the schema and if valid is returned to OS Packager
  - The importer then iterates through all resources, and fetches each resource exactly as above:
    - The correct adapter to handle this URL is found by matching the URL with a URL pattern per adapter
    - The adapter code is called, it returns the resource's csv file
    - The file is then validated to be a valid CSV with UTF-8 encoding
-   - If valid, the file is returned to OS Importer
+   - If valid, the file is returned to OS Packager
 
 ## Configuration
 
